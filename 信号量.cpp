@@ -1,3 +1,6 @@
+//创建新线程使得主线程中输出任意键输出hello
+
+
 #include <iostream>
 #include <conio.h>         //getch()函数 
 #include<semaphore.h>      //信号量所在 
