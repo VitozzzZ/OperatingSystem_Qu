@@ -22,3 +22,4 @@ DWORD WINAPI funproc(LPVOID lpparentet)     //子线程执行函数
 		sem_wait(&sem);            //P函数 
 		cout<<"hello"<<endl;
 	} 
+}
