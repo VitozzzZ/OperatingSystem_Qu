@@ -8,7 +8,7 @@ Windows 将此内存空间映射到进程的地址空间中 ; 当在其他进程
 hMap , 并调用 MapViewOfFile 函数得到此内存空间的一个映射,这样系统就把同一块内存区域映射到了不同进程的地址空间中,从而达到共享内存的目的
 */
 //进程 A 将数据写入到共享内存 :
-#include "stdafx.h"
+#include "stdafx.h"  //http://blog.csdn.net/lijun5635/article/details/13090341/
 #include <windows.h>
 using namespace std;
 
