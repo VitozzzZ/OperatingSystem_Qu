@@ -9,7 +9,7 @@
 void getPidByName(pid_t *pid, char *task_name)
 {
     DIR *dir;
-    struct dirent *ptr;
+    struct dirent *ptr;   //http://blog.csdn.net/zhuyi2654715/article/details/7605051
     FILE *fp;
     char filepath[50];
     char cur_task_name[50];
