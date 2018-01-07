@@ -25,7 +25,8 @@ int main(){
         printf("Press <return> to unmount the usb disk:");
         getchar();
         
-        umount("/mnt/USB/);
+        umount("/mnt/USB/");
+        printf("Unmount successful");
     }
     return 0;
    
