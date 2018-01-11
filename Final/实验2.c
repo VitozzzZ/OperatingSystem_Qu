@@ -36,7 +36,7 @@ cout<<"show the information of the students"<<endl;
 void step2()
 {
  fstream ffile;
- ffile.open("/home/yy/hw2.txt",ios::binary | ios::out | ios::in); 
+ ffile.open("/home/zsq/2.txt",ios::binary | ios::out | ios::in); 
 struct student rec,read;
   int t;
   int x=sizeof(rec);
