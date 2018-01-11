@@ -16,7 +16,7 @@ struct student
 
 void step1()
 {
- ofstream outfile("/home/yy/hw2.txt",ios::out);
+ ofstream outfile("/home/zsq/2.txt",ios::out);
  cout<<"write the information of ten students"<<endl; 
 for(int i=1;i<=10;i++)
    {
@@ -25,7 +25,7 @@ for(int i=1;i<=10;i++)
    }
 outfile.close();
  cout<<endl<<endl;
- ifstream infile("/home/yy/hw2.txt",ios::in);
+ ifstream infile("/home/zsq/2.txt",ios::in);
 cout<<"show the information of the students"<<endl;
  while(!(infile.peek()==EOF))
  {
@@ -68,9 +68,9 @@ ffile.seekg(x,ios::beg);
 
 void step3()
 {
- struct student a={9,"baka","female",9};
+ struct student a={5,"Zealot","male",19};
  fstream ffile;
- ffile.open("/home/yy/hw2.txt",ios::binary | ios::out | ios::in);
+ ffile.open("/home/zsq/2.txt",ios::binary | ios::out | ios::in);
 struct student rec,read;
   int t;
   int x=sizeof(rec);
