@@ -40,7 +40,7 @@ int finsert(FILE *fp, long offset, void *buffer, int len){
         fcopy(fp, 0, offset, fpTemp, 0);
         fwrite(buffer, len, 1, fpTemp);
         fcopy(fp, offset, -1, fpTemp, offset+len);
-        freopen("FILENAME", "wb+", fp );
+        freopen("/home/zsq/2.txt", "wb+", fp );
         fcopy(fpTemp, 0, -1, fp, 0);
         fclose(fpTemp);
     }
