@@ -67,7 +67,7 @@ void readfile(const char* f)  //读取文件，验证函数
 int main()
 {
 student s[10];
-student newvalue={38,"lq","f",18};
+student newvalue={11,"zzz","m",19};
 FILE * stu=fopen("stu.txt","w+");
 assert(stu!=NULL);
 cout<<"Please input the value of ten students:"<<endl;
