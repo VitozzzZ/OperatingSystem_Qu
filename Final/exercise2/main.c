@@ -44,7 +44,7 @@ int main(){
     fclose(fp2);
     
     //4 验证函数
-    fp=fopen("/Users/apple/Desktop/file","wb+");
+    fp=fopen("/home/zsq/2.txt","wb+");
     fread(stu2, sizeof(struct stu), N+1, fp);
     for(i=0;i<N+1;i++,p2++){
         printf("%d %s %s %d",p2->num,p2->name,p2->sex,p2->age);
